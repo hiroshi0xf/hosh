@@ -37,8 +37,8 @@ local AutoBuy = safeLoad("https://raw.githubusercontent.com/hiroshi0xf/hosh/refs
 local PetFunctions = safeLoad("https://raw.githubusercontent.com/hiroshi0xf/hosh/refs/heads/main/PetMiddleFunctions.lua", "PetFunctions")
 local LocalPlayer = safeLoad("https://raw.githubusercontent.com/hiroshi0xf/hosh/refs/heads/main/LocalPlayer.lua", "LocalPlayer")
 local vuln = safeLoad("https://raw.githubusercontent.com/DarenSensei/GAGTestHub/refs/heads/main/Vuln.lua", "vuln")
-local esp = safeLoad("https://raw.githubusercontent.com/GrowAFilipinrefsheads/main/esp.lua", "esp")
-local SettingsManager = safeLoad("https://raw.githubusercontent.com/DarenSensei/GrowAFilipino/refs/heads/main/SettingsManager.lua", "SettingsManager")
+local esp = safeLoad("https://raw.githubusercontent.com/hiroshi0xf/hosh/refs/heads/main/esp.lua", "esp")
+local SettingsManager = safeLoad("https://raw.githubusercontent.com/hiroshi0xf/hosh/refs/heads/main/SettingsManager.lua", "SettingsManager")
 if not CoreFunctions then
     error("Failed to load CoreFunctions - script cannot continue")
 end
